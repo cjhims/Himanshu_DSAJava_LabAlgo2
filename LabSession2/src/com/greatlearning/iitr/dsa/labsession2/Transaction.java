@@ -20,7 +20,6 @@ public class Transaction {
 
 	public void insertValues() {
 		for (int i = 0; i < size; i++) {
-			// System.out.print("Enter element at position " +i + ": ");
 			array[i] = sc.nextInt();
 		}
 		target();
