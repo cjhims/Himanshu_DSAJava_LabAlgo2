@@ -86,6 +86,8 @@ public class Denominations {
 
 		// Print notes
 		System.out.println("Currency Count ->");
+		if (amount == 0)
+			System.out.println("No valid counts!");
 		for (int i = 0; i < size; i++) {
 			if (counter[i] != 0) {
 				System.out.println(array[i] + " Rupees : " + counter[i] + " notes");
